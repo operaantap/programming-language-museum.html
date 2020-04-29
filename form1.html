@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title > code fans task 3</title>
+    <meta name="viewport" content="width=320, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description " content="A simple html form ">
+    <meta name="author" content="twitter.com/mikeolayiwola1">
+    <style>
+      body, html {
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        font: Arial 14px;
+      }
+      label {
+        width:140px;
+        display:inline-block;
+        text-align:left;
+      }
+      input[type=submit] {
+     
+    display: inline-block;
+    float:right;
+        align-self:absolute;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+     
+}
+    </style>
+    <!--<link rel="stylesheet" href="style.css"/>-->
+    <!--<script defer src="script.js"></script>-->
+  </head>
+  <body>
+    <div style="border :1px solid #000000; margin : 0 auto">
+      <form action ="" > 
+        <fieldset >
+          <legend>
+            Form Validation
+          </legend>
+          <label for="fname ">Name:</label>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="uname">Username:</label>
+          <input type="text" id="uname" name="uname"><br>
+          <label for="pword">Password:</label>
+          <input type="password" id="pword" name="pword"><br>
+          <label for="pword">Re-type password:</label>
+          <input type="password" id="pword" name="pword"><br>
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female<input type="radio" name="gender" value="Others">Other<br>
+          <label for="pskills">Programming skills:</label>
+          <input type="checkbox" name="skill1" value="Java">
+          <span>Java</span>
+          
+          <input  type="checkbox" name="skill2" value="Android">
+          <span >Android</span>
+          <input type="checkbox" name="skill3" value="Ruby">
+          <span>Ruby</span>
+          <input type="checkbox" name="skill4" value=".Net">
+          <span >.Net</span><br>
+          <label for="contact">Contact no:</label>
+          <input type="tel" id="contact" name="contact"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="college">College:</label>
+          <select id="college">
+            <option value="select">Select college</option>
+            <option value="bestway">Best Way College</option>
+            <option value="queens">Queen's College</option>
+            <option value="kings">King's College</option>
+            <option value="gregs">St. Gregory's College</option>
+          </select><br>
+          <input type="submit">
+        </fieldset>
+      </form>
+    </div> 
+  </body>
+</html>
